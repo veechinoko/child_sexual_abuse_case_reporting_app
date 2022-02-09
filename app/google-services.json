@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "781803575909",
+    "project_id": "child-sex-reporting-app",
+    "storage_bucket": "child-sex-reporting-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:781803575909:android:f0a23a463dea0df8c3448c",
+        "android_client_info": {
+          "package_name": "com.example.childsexreportingapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "781803575909-vbor8h4qo0g12tpst4hs4jatjeb5jbu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrOd1bx-TyiLk10Uae5YgTERrtylBABKQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "781803575909-vbor8h4qo0g12tpst4hs4jatjeb5jbu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
