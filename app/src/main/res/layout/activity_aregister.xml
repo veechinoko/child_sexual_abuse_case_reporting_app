@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bbbb"
+    tools:context=".Aregister">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:padding="20dp"
+        android:textSize="40sp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/muli_black"
+        android:text="Create new admin Account" />
+
+    <EditText
+        android:id="@+id/afullname"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buton"
+        android:fontFamily="@font/adamina"
+        android:padding="17dp"
+        android:text="Full name"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/agenda"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"
+        android:padding="17dp"
+        android:fontFamily="@font/adamina"
+        android:background="@drawable/buton"
+        android:text="Gender" />
+
+    <EditText
+        android:id="@+id/acontactPhone"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_marginTop="25dp"
+        android:padding="17dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:background="@drawable/buton"
+        android:text="Contact Phone" />
+
+    <EditText
+        android:id="@+id/aEmail"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/buton"
+        android:layout_marginTop="25dp"
+        android:padding="17dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/adamina"
+        android:layout_width="300dp"
+        android:textSize="20sp"
+        android:text="Email" />
+
+    <EditText
+        android:id="@+id/aPassword"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="300dp"
+        android:layout_marginTop="25dp"
+        android:padding="17dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/adamina"
+        android:background="@drawable/buton"
+        android:text="Password"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/BtnARegister"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/muli_black"
+        android:textSize="20dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Register!" />
+
+    <TextView
+        android:id="@+id/agotoLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/aclonica"
+        android:clickable="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="Already have an Account? Log in" />
+</LinearLayout>
+</ScrollView>

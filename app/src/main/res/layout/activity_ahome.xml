@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/bbbb"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Aprofile">
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_dashboard"
+        android:textColor="@color/white"
+        android:fontFamily="@font/muli_black"
+        android:padding="25dp"
+        android:textSize="35sp"
+        />
+
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="50dp"
+        android:rowCount="2"
+        android:columnCount="2">
+
+
+
+        <Button
+            android:id="@+id/btnprofile"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_gravity="fill"
+            android:layout_margin="10sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/profile"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bTNcRIME"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="10sp"
+            android:textSize="18sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/crimes" />
+
+        <Button
+            android:id="@+id/from"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="10sp"
+            android:textSize="18sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/forumu" />
+        <Button
+            android:id="@+id/btnLogOut"
+            android:layout_gravity="fill"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:layout_margin="10sp"
+            android:textSize="18sp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="@string/log_outi" />
+
+
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@drawable/bbbb"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        tools:context=".WelcomeScreen">
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:padding="30dp"
+        android:textSize="40sp"
+        android:fontFamily="@font/muli_black"
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in_as"
+        android:fontFamily="@font/muli_semibold"
+        android:textSize="25sp"
+        android:padding="20dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnAdmin"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/adminSra"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:fontFamily="@font/adamina"
+        android:textSize="25sp"
+        />
+
+    <Button
+        android:id="@+id/btnUser"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/userla"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/buton"
+        android:textAllCaps="false"
+        android:padding="15dp"
+        android:fontFamily="@font/adamina"
+        android:textSize="25sp"
+        />
+</LinearLayout>
+</ScrollView>
